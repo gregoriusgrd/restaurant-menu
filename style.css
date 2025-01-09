@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -61,7 +62,7 @@ a:hover {
 }
   
 .header-gif {
-    width: 63%;
+    width: 60%;
     display: block;
     margin: 0 auto;
     border-radius: 20px;
@@ -234,32 +235,35 @@ select {
 .btn-color-1, .btn-color-2 {
     margin: auto;
     padding: 1rem;
-    width: 40%;
+    width: 35%;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-radius: 2rem;
     font-family: "Jersey 15", sans-serif;
     font-size: 1.5rem;
-    color: white;
+    color: black;
 }
 
 .btn-color-1:hover, .btn-color-2:hover {
   cursor: pointer;
 }
 
-.btn-color-1, .btn-color-2:hover {
-  background: #10141f;
-  color: white;
+.btn-color-1 {
+    background: white;
 }
 
 .btn-color-1:hover {
     background: rgb(0, 0, 0);
+    color: white;
+    border: rgb(255, 255, 255) 0.1rem solid;
 }
 
 .btn-color-2 {
-    background: #10141f;
+    background: white;
 }
 
 .btn-color-2:hover {
+    background: #10141f;
+    color: white;
     border: rgb(255, 255, 255) 0.1rem solid;
 }
 
