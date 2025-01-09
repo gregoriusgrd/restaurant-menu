@@ -19,7 +19,7 @@ html {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #34160B;
+    background-color: #24171b;
     color: white;
     margin-bottom: 20px;
 }
@@ -55,14 +55,14 @@ a:hover {
 }
 
 .header-image {
-    margin-top: 20px; /* Add space below the navigation */
-    text-align: center; /* Center the GIF */
+    margin-top: 20px;
+    text-align: center;
 }
   
 .header-gif {
     width: 63%;
     display: block;
-    margin: 0 auto; /* Center the GIF */
+    margin: 0 auto;
     border-radius: 20px;
 }
   
@@ -76,7 +76,7 @@ a:hover {
 .menu-container {
     width: 60%;
     margin: auto;
-    background-color: #264533;
+    background-color: #495435;
     padding: 20px;
     border-radius: 20px;
 }
@@ -141,14 +141,16 @@ form {
 #order-form {
     margin-top: 20px;
     margin-bottom: 20px;
+
 }
 
 .order-form-container {
     width: 60%;
     margin: auto;
-    background-color: #294371;
+    background-color: #253a5e;
     padding: 20px;
     border-radius: 20px;
+    
 }
 
 .form-group {
@@ -215,7 +217,7 @@ select {
 .btn-color-1, .btn-color-2 {
     margin: auto;
     padding: 1rem;
-    width: 30%;
+    width: 40%;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-radius: 2rem;
     font-family: "Jersey 15", sans-serif;
@@ -228,7 +230,7 @@ select {
 }
 
 .btn-color-1, .btn-color-2:hover {
-  background: rgb(53, 53, 53);
+  background: #10141f;
   color: white;
 }
 
@@ -237,7 +239,7 @@ select {
 }
 
 .btn-color-2 {
-    background: none;
+    background: #10141f;
 }
 
 .btn-color-2:hover {
@@ -253,6 +255,6 @@ select {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #34160B;
+    background-color: #24171b;
     color: white;
 }
