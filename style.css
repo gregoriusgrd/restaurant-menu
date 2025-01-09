@@ -70,6 +70,14 @@ a:hover {
     margin-top: 20px;
 }
 
+.menu-container {
+    width: 60%;
+    margin: auto;
+    background-color: #264533;
+    padding: 20px;
+    border-radius: 20px;
+}
+
 .title {
     text-align: center;
     font-size: 2rem;
@@ -78,14 +86,6 @@ a:hover {
     margin-bottom: 20px;
     text-decoration: underline;
     text-underline-offset: 0.5rem;
-}
-
-.menu-container {
-    width: 60%;
-    margin: auto;
-    background-color: #264533;
-    padding: 20px;
-    border-radius: 20px;
 }
 
 .menu-item {
@@ -128,3 +128,7 @@ a:hover {
 }
 
 /* FORM SECTION */
+
+#order-form {
+    margin-top: 20px;
+}
