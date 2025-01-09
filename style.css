@@ -8,6 +8,9 @@ body {
     background-color: #3E2C1C;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 /* NAV SECTION */
 
@@ -143,18 +146,19 @@ a:hover {
     border-radius: 20px;
 }
 
+.form-item {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
 .form-sub-title {
     font-size: 1rem;
     color: #ffecd6;
+    margin: 0.5rem;
 }
 
 label {
    color: #d2c9a5;
-}
-
-.form-item {
-    padding: 1rem;
-    border-bottom: 1px solid #ddd;
 }
 
 .menu-item {
@@ -166,14 +170,63 @@ label {
     border-bottom: 1px solid #ddd; /* Optional: Separates items visually */
 }
 
+input {
+    font-family: "Jersey 15", sans-serif;
+    border-radius: 0.5rem;
+    padding: 5px;
+}
+
+textarea {
+    font-family: "Jersey 15", sans-serif;
+    border-radius: 0.5rem;
+    padding: 5px;
+}
+
 /* BUTTON */
 
-.button-container {
+.btn-container {
     margin-top: 20px;
     display: flex;
 }
 
-button {
+.btn-color-1, .btn-color-2 {
+    margin: auto;
+    padding: 1rem;
+    width: 30%;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-radius: 2rem;
+    font-family: "Jersey 15", sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.btn-color-1:hover, .btn-color-2:hover {
+  cursor: pointer;
+}
+
+.btn-color-1,
+.btn-color-2:hover {
+  background: rgb(53, 53, 53);
+  color: white;
+}
+
+.btn-color-1:hover {
+    background: rgb(0, 0, 0);
+}
+
+.btn-color-2 {
+    background: none;
+}
+
+.btn-color-2:hover {
+    border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+.btn-container {
+    gap: 1rem;
+}
+
+/* button {
     margin: auto;
     padding: 1rem;
     width: 40%;
@@ -183,9 +236,7 @@ button {
     font-family: "Jersey 15", sans-serif;
     font-size: 1.5rem;
     color: white;
-}
+} */
 
-button:hover {
-    background: #ddd;
-}
+
 
