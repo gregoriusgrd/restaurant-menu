@@ -80,7 +80,54 @@
         </section>
 
         <section id="order-form">
-            <h2></h2>
+            <div class="form-container">
+              <h2>Place Your Order here</h2>
+              <!-- Form -->
+                <form>
+                  <div>
+                      <h3>Which item would you like from the options above?</h3>
+                      <label for="itemName">Item Name: </label>
+                      <input type="text" id="itemName" name="itemName" required>
+                  </div>
+      
+                  <div>
+                      <h3>How many would you like?</h3>
+                      <label for="itemQuantity">Quantity: </label>
+                      <input type="number" id="itemQuantity" min="0" max="10" required>
+                  </div>
+      
+                  <!-- Sides Add Ons-->
+                  <h3>Sides Add Ons</h3>
+                  <div id="sides-add-ons">
+                      <input type="checkbox" id="strawberries-add-ons" name="sides-add-ons" />
+                      <label for="strawberries">Fresh Strawberries</label>
+                      <br>
+                  
+                      <input type="checkbox" id="caramel-sauce-add-ons" name="sides-add-ons" />
+                      <label for="caramel-sauce">Caramel Sauce</label>
+                      <br>
+                  
+                      <input type="checkbox" id="chocolate-sprinkles-add-ons" name="sides-add-ons" />
+                      <label for="chocolate-sprinkles">Chocolate Sprinkles</label>
+                      <br>
+              
+                      <input type="checkbox" id="berry-compote-add-ons" name="sides-add-ons" />
+                      <label for="berry-compote">Berry Compote</label>
+                      <br>
+                  
+                      <input type="checkbox" id="vanilla-ice-cream-add-ons" name="sides-add-ons" />
+                      <label for="vanilla-ice-cream">Scoop of Vanilla Ice Cream</label>
+                  </div>
+                  
+                  <h3>Special Request: </h3>
+                  <div>
+                      <label for="special-request"></label>
+                      <textarea name="special-request" id="special-request"></textarea>
+                  </div>
+      
+                  <button type="submit">Go To Checkout</button>
+              </form>
+            </div>
         </section>
     </main>
 
