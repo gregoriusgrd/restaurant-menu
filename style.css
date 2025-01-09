@@ -5,7 +5,7 @@
 
 body {
     font-family: "Jersey 15", sans-serif;
-    background-color: #614A31;
+    background-color: #3E2C1C;
 }
 
 
@@ -16,7 +16,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #471F0D;
+    background-color: #34160B;
     color: white;
     margin-bottom: 20px;
 }
@@ -32,10 +32,15 @@ body {
 .nav-links {
     gap: 2rem;
     font-size: 1.5rem;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
 }
 
 a {
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -78,7 +83,7 @@ a:hover {
 .menu-container {
     width: 60%;
     margin: auto;
-    background-color: #274735;
+    background-color: #264533;
     padding: 20px;
     border-radius: 20px;
 }
