@@ -84,20 +84,20 @@
               <h2 class="title">Place Your Order here</h2>
               <!-- Form -->
                 <form>
-                  <div class="form-item">
-                      <h3 class="form-sub-title">Which item would you like from the options above?</h3>
-                      <label for="itemName">Item Name: </label>
-                      <input type="text" id="itemName" name="itemName" required>
-                  </div>
-      
-                  <div class="form-item">
-                      <h3 class="form-sub-title">How many would you like?</h3>
-                      <label for="itemQuantity">Quantity: </label>
-                      <input type="number" id="itemQuantity" min="0" max="10" required>
+                  <div class="form-group">
+                    <h3 class="form-sub-title">Which item would you like from the options above?</h3>
+                    <label class="form-label" for="form-item-name">Item Name: </label>
+                    <select id="form-item-name" name="form-item-name" required>
+                      <option value="" disabled selected>Select an item</option>
+                      <option value="latte">Latte</option>
+                      <option value="cherry-milkshake">Cherry Milkshake</option>
+                      <option value="blueberry-muffin">Blueberry Muffin</option>
+                      <option value="strawberry-donut">Strawberry Donut</option>
+                    </select>
                   </div>
       
                   <!-- Add Ons-->
-                  <div class="form-item">
+                  <div class="form-group">
                     <h3 class="form-sub-title">Add Ons</h3>
                     <div class="add-on-item">
                       <input type="checkbox" id="strawberries" name="add-ons" />
@@ -121,10 +121,10 @@
                     </div>
                   </div>
                   
-                  <div class="form-item">
-                    <h3 class="form-sub-title">Special Request: </h3>
+                  <div class="form-group">
+                    <h3 class="form-sub-title">Special Request </h3>
                       <label for="special-request"></label>
-                      <textarea name="special-request" id="special-request"></textarea>
+                      <textarea name="special-request" id="special-request" placeholder="..."></textarea>
                   </div>
       
                   <div class="btn-container">

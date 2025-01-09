@@ -93,17 +93,17 @@ a:hover {
 
 .menu-item {
     display: flex;
-    align-items: center; /* Vertically centers content */
-    justify-content: space-between; /* Creates space between items */
-    gap: 1rem; /* Adds space between child elements */
+    align-items: center; 
+    justify-content: space-between;
+    gap: 1rem; 
     padding: 1rem;
-    border-bottom: 1px solid #ddd; /* Optional: Separates items visually */
+    border-bottom: 1px solid #ddd; 
 }
 
 .item-image {
-    width: 100px; /* Adjust size as needed */
-    height: auto; /* Maintains aspect ratio */
-    border-radius: 5px; /* Optional: Rounds image corners */
+    width: 100px; 
+    height: auto; 
+    border-radius: 5px; 
 }
 
 .item-details {
@@ -112,7 +112,7 @@ a:hover {
 }
 
 .item-name {
-    font-size: 1.5rem; /* Adjust font size as needed */
+    font-size: 1.5rem; 
     font-weight: bold;
     padding-bottom: 1rem;
     color: #ffecd6;
@@ -134,6 +134,10 @@ a:hover {
 
 /* FORM SECTION */
 
+form {
+    font-size: 1.25rem;
+}
+
 #order-form {
     margin-top: 20px;
 }
@@ -146,40 +150,58 @@ a:hover {
     border-radius: 20px;
 }
 
-.form-item {
+.form-group {
     padding: 1rem;
     border-bottom: 1px solid #ddd;
 }
 
 .form-sub-title {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: #ffecd6;
     margin: 0.5rem;
 }
 
+#form-item-name {
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 1rem;
+    margin-left: 7px;
+}
+
 label {
    color: #d2c9a5;
+   margin-left: 8px;
 }
 
 .menu-item {
     display: flex;
-    align-items: center; /* Vertically centers content */
-    justify-content: space-between; /* Creates space between items */
-    gap: 1rem; /* Adds space between child elements */
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
     padding: 1rem;
-    border-bottom: 1px solid #ddd; /* Optional: Separates items visually */
+    border-bottom: 1px solid #ddd; 
 }
+
+/* INPUT SECTION */
 
 input {
     font-family: "Jersey 15", sans-serif;
     border-radius: 0.5rem;
     padding: 5px;
+    margin-left: 8px;
 }
 
 textarea {
     font-family: "Jersey 15", sans-serif;
     border-radius: 0.5rem;
-    padding: 5px;
+    width: 30%;
+    padding: 1rem;
+    margin-top: 6px;
+}
+
+select {
+    width: 25%;
 }
 
 /* BUTTON */
@@ -204,8 +226,7 @@ textarea {
   cursor: pointer;
 }
 
-.btn-color-1,
-.btn-color-2:hover {
+.btn-color-1, .btn-color-2:hover {
   background: rgb(53, 53, 53);
   color: white;
 }
@@ -225,18 +246,6 @@ textarea {
 .btn-container {
     gap: 1rem;
 }
-
-/* button {
-    margin: auto;
-    padding: 1rem;
-    width: 40%;
-    border: 1px solid #294371;
-    border-radius: 2rem;
-    background: #d2c9a5;
-    font-family: "Jersey 15", sans-serif;
-    font-size: 1.5rem;
-    color: white;
-} */
 
 
 
