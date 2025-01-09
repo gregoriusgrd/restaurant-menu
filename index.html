@@ -81,53 +81,55 @@
 
         <section id="order-form">
             <div class="order-form-container">
-              <h2>Place Your Order here</h2>
+              <h2 class="title">Place Your Order here</h2>
               <!-- Form -->
                 <form>
-                  <div>
-                      <h3>Which item would you like from the options above?</h3>
+                  <div class="form-item">
+                      <h3 class="form-sub-title">Which item would you like from the options above?</h3>
                       <label for="itemName">Item Name: </label>
                       <input type="text" id="itemName" name="itemName" required>
                   </div>
       
-                  <div>
-                      <h3>How many would you like?</h3>
+                  <div class="form-item">
+                      <h3 class="form-sub-title">How many would you like?</h3>
                       <label for="itemQuantity">Quantity: </label>
                       <input type="number" id="itemQuantity" min="0" max="10" required>
                   </div>
       
                   <!-- Add Ons-->
-                  <h3>Add Ons</h3>
-                  <div id="add-ons">
+                  <div class="form-item">
+                    <h3 class="form-sub-title">Add Ons</h3>
                     <div class="add-on-item">
                       <input type="checkbox" id="strawberries" name="add-ons" />
                       <label for="strawberries">Fresh Strawberries</label>
                     </div>
                     <div class="add-on-item">
-                      <input type="checkbox" id="caramel-sauce" name="sides-add-ons" />
+                      <input type="checkbox" id="caramel-sauce" name="add-ons" />
                       <label for="caramel-sauce">Caramel Sauce</label>
                     </div>
                     <div class="add-on-item">
-                      <input type="checkbox" id="chocolate-sprinkles" name="sides-add-ons" />
+                      <input type="checkbox" id="chocolate-sprinkles" name="add-ons" />
                       <label for="chocolate-sprinkles">Chocolate Sprinkles</label>
                     </div>
                     <div class="add-on-item">
-                      <input type="checkbox" id="berry-compote" name="sides-add-ons" />
+                      <input type="checkbox" id="berry-compote" name="add-ons" />
                       <label for="berry-compote">Berry Compote</label>
                     </div>
                     <div class="add-on-item">
-                      <input type="checkbox" id="vanilla-ice-cream" name="sides-add-ons" />
+                      <input type="checkbox" id="vanilla-ice-cream" name="add-ons" />
                       <label for="vanilla-ice-cream">Scoop of Vanilla Ice Cream</label>
                     </div>
                   </div>
                   
-                  <h3>Special Request: </h3>
-                  <div>
+                  <div class="form-item">
+                    <h3 class="form-sub-title">Special Request: </h3>
                       <label for="special-request"></label>
                       <textarea name="special-request" id="special-request"></textarea>
                   </div>
       
-                  <button type="submit">Go To Checkout</button>
+                  <div class="button-container">
+                    <button type="submit">Go To Checkout</button>
+                  </div>
               </form>
             </div>
         </section>

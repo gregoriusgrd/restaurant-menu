@@ -103,13 +103,6 @@ a:hover {
     border-radius: 5px; /* Optional: Rounds image corners */
 }
 
-.item-price {
-    font-size: 1.5rem;
-    font-weight: bold;
-    white-space: nowrap;
-    color: #ffecd6;
-} 
-
 .item-details {
     width: 60%;
     text-align: center;
@@ -127,8 +120,72 @@ a:hover {
     color: #d2c9a5;
 }
 
+.item-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #ffecd6;
+} 
+
+
+
 /* FORM SECTION */
 
 #order-form {
     margin-top: 20px;
 }
+
+.order-form-container {
+    width: 60%;
+    margin: auto;
+    background-color: #294371;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.form-sub-title {
+    font-size: 1rem;
+    color: #ffecd6;
+}
+
+label {
+   color: #d2c9a5;
+}
+
+.form-item {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center; /* Vertically centers content */
+    justify-content: space-between; /* Creates space between items */
+    gap: 1rem; /* Adds space between child elements */
+    padding: 1rem;
+    border-bottom: 1px solid #ddd; /* Optional: Separates items visually */
+}
+
+/* BUTTON */
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+}
+
+button {
+    margin: auto;
+    padding: 1rem;
+    width: 40%;
+    border: 1px solid #294371;
+    border-radius: 2rem;
+    background: #d2c9a5;
+    font-family: "Jersey 15", sans-serif;
+    font-size: 1.5rem;
+    color: white;
+}
+
+button:hover {
+    background: #ddd;
+}
+
