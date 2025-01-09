@@ -4,50 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafe Menu</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Pixelify+Sans:wght@400..700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header>
         <nav>
-
+          <div class="logo">
+            <h1>Sky's Restaurant</h1>
+          </div>
+          <div>
+            <ul>
+              <h2><a href="menu">Menu</a></h2>
+              <h2><a href="#order-form">Order Form</a></h2>
+            </ul>
+          </div>
         </nav>
     </header>
 
+    <hr>
+
     <main>
-        <h1>Sky's Cafe</h1>
-        <section id="Menu">
-            <h2 class="title">Menu</h2>
+        <section id="menu">
             <div class="menu-container">
-                <article>
-                    <img src="https://i.pinimg.com/736x/5f/46/fc/5f46fcbdfb934c444ae3b4580d798886.jpg" alt="Latte Picture" class="menu-pic">
-                    <h2>Latte</h2>
-                    <p class="price">$4.50</p>
-                    <p>A smooth blend of premium espresso and steamed milk, topped with a delicate layer of foam. Perfect for starting your day or as a mid-day pick-me-up.</p>
-                  </article>
+              <h2 class="title">Menu</h2>
+                <article class="menu-item">
+                  <img src="https://i.pinimg.com/736x/5f/46/fc/5f46fcbdfb934c444ae3b4580d798886.jpg" alt="Latte Picture" 
+                  class="item-pic">
+                  <div class="item-details">
+                    <h3 class="item-name">Latte</h3>
+                    <p class="item-description">Espresso blended with steamed milk, topped with foam. A smooth and energizing drink.</p>
+                  </div>
+                  <p class="item-price">$3.50</p>
+                </article>
               
-                  <article>
-                    <img src="https://i.pinimg.com/736x/97/90/10/979010750afdc1401aa5923ce6ad7984.jpg" alt="Donut Picture" class="menu-pic">
-                    <h2>Cherry Milkshake</h2>
-                    <p class="price">$2.30</p>
-                    <p>A creamy blend of vanilla ice cream and fresh cherry syrup, topped with whipped cream and a cherry on top. A refreshing and sweet treat for any time of day!</p>
-                  </article>
+                <article class="menu-item">
+                  <img src="https://i.pinimg.com/736x/24/53/19/24531991e074dd0ea2ba68b49646c62a.jpg" alt="Donut Picture" 
+                  class="item-pic">
+                  <div class="item-details">
+                    <h3 class="item-name">Cherry Milkshake</h3>
+                    <p class="item-description">Vanilla ice cream with cherry syrup, whipped cream, and a cherry on top. Sweet and refreshing!</p>
+                  </div>
+                  <p class="item-price">$2.30</p>
+                </article>
 
-                  <article>
-                    <img src="https://i.pinimg.com/736x/88/65/db/8865db6560b1b6be5b94ef6790e6d30c.jpg" alt="Blueberry Pancake Picture" class="menu-pic">
-                    <h2>Blueberry Muffin</h2>
-                    <p class="price">$3.00</p>
-                    <p>Bursting with real blueberries and a hint of vanilla, our pancake is baked fresh daily and pairs perfectly with coffee.</p>
-                  </article>
+                <article class="menu-item">
+                  <img src="https://i.pinimg.com/736x/88/65/db/8865db6560b1b6be5b94ef6790e6d30c.jpg" alt="Blueberry Pancake Picture" 
+                  class="item-pic">
+                  <div class="item-details">
+                    <h3 class="item-name">Blueberry Muffin</h3>
+                    <p class="item-description">Freshly baked with real blueberries and a hint of vanilla. Perfect with coffee.</p>
+                  </div>
+                  <p class="item-price">$3.00</p>
+                </article>
 
-                  <article>
-                    <img src="https://i.pinimg.com/736x/97/90/10/979010750afdc1401aa5923ce6ad7984.jpg" alt="Donut Picture" class="menu-pic">
-                    <h2>Strawberry Donut</h2>
-                    <p class="price">$2.30</p>
-                    <p>A sweet, fried dough pastry with strawberry flavor and topped with frosting. It's soft on the inside with a crispy exterior.</p>
-                  </article>
+                <article class="menu-item">
+                  <img src="https://i.pinimg.com/736x/97/90/10/979010750afdc1401aa5923ce6ad7984.jpg" alt="Strawberry Picture" 
+                  class="item-pic">
+                  <div class="item-details">
+                    <h3 class="item-name">Strawberry Donut</h3>
+                    <p class="item-description">Fried dough with strawberry flavor and frosting. Crispy outside, soft inside.</p>
+                  </div>
+                  <p class="item-price">$2.30</p>
+                </article>
+                
             </div>
         </section>
 
-        <section>
+        <section id="order-form">
             <h2></h2>
         </section>
     </main>

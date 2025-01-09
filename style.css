@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 200px;
+}
+
+body {
+    font-family: "Jersey 15", sans-serif;
+    background-color: #544e68;
+}
+
+.title {
+    text-align: center;
+    font-size: 2rem;
+    padding-left: 50px;
+    color: #ffecd6;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+.menu-container {
+    width: 80%;
+    margin: auto;
+    background-color: #8d697a;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center; /* Vertically centers content */
+    justify-content: space-between; /* Creates space between items */
+    gap: 1rem; /* Adds space between child elements */
+    padding: 1rem;
+    border-bottom: 1px solid #ddd; /* Optional: Separates items visually */
+}
+
+.item-pic {
+    width: 100px; /* Adjust size as needed */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 5px; /* Optional: Rounds image corners */
+}
+
+.item-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #ffecd6;
+} 
+
+.item-details {
+    width: 60%;
+    text-align: center;
+}
+
+.item-name {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    font-weight: bold;
+    padding-bottom: 1rem;
+    color: #ddcc99;
+}
+
+.item-description {
+    font-size: 1.25rem;
+    color: #cc9988;
+}
