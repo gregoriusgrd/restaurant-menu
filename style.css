@@ -47,7 +47,7 @@ html {
 }
 
 a {
-    color: #F1E5AC;
+    color: #EDE6DB;
     text-decoration: none;
 }
 
@@ -78,7 +78,7 @@ a:hover {
     display: block;
     width: 60%;
     margin: 0 auto; 
-    padding-left: 15px;
+    padding-left: 2%;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #5C3C33;  /* COLOR */
@@ -246,8 +246,8 @@ select {
     margin: auto;
     padding: 1rem;
     width: 35%;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-radius: 2rem;
+    border: #ebd9c5 0.1rem solid;
+    border-radius: 10px;
     font-family: "Jersey 15", sans-serif;
     font-size: 1.5rem;
     color: black;
@@ -262,9 +262,9 @@ select {
 }
 
 .btn-color-1:hover {
-    background: rgb(0, 0, 0);
+    background: black;
     color: white;
-    border: rgb(255, 255, 255) 0.1rem solid;
+    border: #ebd9c5 0.1rem solid;
 }
 
 .btn-color-2 {
@@ -272,9 +272,9 @@ select {
 }
 
 .btn-color-2:hover {
-    background: #10141f;
+    background: black;
     color: white;
-    border: rgb(255, 255, 255) 0.1rem solid;
+    border: #ebd9c5 0.1rem solid;
 }
 
 .btn-container {
