@@ -1,5 +1,5 @@
 # Restaurant Menu Final Project 🍽️
-This is my final project for The Origins I: HTML on Codédex. Instead of a restaurant menu, I made a Cafe Menu and added custom styling with style.css.
+This is my final project for The Origins I: HTML on Codédex.
 
 ## Requirements 📋:
 
@@ -34,7 +34,6 @@ e. A footer that includes a ```<p>``` paragraph element that reads "Made with lo
 
 ## Notes 📌
 - The project requirements for the The Origins I: HTML final task have been fully met.
-- Instead of a restaurant menu, the project features a Cafe Menu for a unique touch.
 - The website includes a style.css file for styling.
 
 Check out the implementation details in both index.html and style.css!
