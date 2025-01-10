@@ -192,17 +192,6 @@ label {
    margin-left: 8px;
 }
 
-.menu-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 1rem;
-    padding: 1rem;
-    border-bottom: 1px solid #ddd; 
-}
-
-
-
 /* INPUT SECTION */
 
 input {
