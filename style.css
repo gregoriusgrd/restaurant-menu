@@ -13,8 +13,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
-
 /* NAV SECTION */
 
 #main-nav {
@@ -23,9 +21,9 @@ html {
     align-items: center;
     padding: 20px;
     background-color: #4E3629;  /* COLOR */
-    color: #EDE6DB; /* TEXT COLOR */
-    margin-bottom: 20px;
-    border-bottom: 3px solid black;
+    color: #FFF6E5; /* TEXT COLOR */
+    margin-bottom: 15px;
+    /* border-bottom: 3px solid black; */
 }
 
 .logo {
@@ -47,7 +45,7 @@ html {
 }
 
 a {
-    color: #EDE6DB;
+    color: #FFF6E5;
     text-decoration: none;
 }
 
@@ -68,7 +66,7 @@ a:hover {
     display: block;
     margin: 0 auto;
     border-radius: 10px;
-    border: 3px solid black;
+    /* border: 3px solid black; */
 }
   
 
@@ -78,38 +76,38 @@ a:hover {
     display: block;
     width: 60%;
     margin: 0 auto; 
-    padding-left: 2%;
+    padding-left: 1%;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #5C3C33;  /* COLOR */
     text-align: center;
-    margin-bottom: 20px;
-    border-radius: 10px;
-    border: 3px solid black;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    /* border: 3px solid black; */
     font-size: 2rem;
     color: #EDE6DB;  /* TEXT COLOR */
 }
 
 #menu {
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 .menu-container {
     width: 60%;
     margin: auto;
     background-color: #1D1B18;  /* COLOR */
-    padding: 0px 20px;
-    border-radius: 10px;
-    border: 3px solid black;
+    padding: 20px;
+    border-radius: 5px;
+    /* border: 3px solid black; */
 }
 
 .title {
     text-align: center;
     font-size: 2rem;
-    padding-left: 4%;
+    padding-left: 3%;
     padding-bottom: 10px;
     color: #C5A880;  /* TEXT COLOR */
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     margin-top: 10px;
     text-decoration: underline;
     text-underline-offset: 1rem;
@@ -120,7 +118,6 @@ a:hover {
     align-items: center; 
     justify-content: space-between;
     padding: 0.5rem;
-    
 }
 
 .item-img {
@@ -165,9 +162,8 @@ form {
 }
 
 #order-form {
-    margin-top: 20px;
-    margin-bottom: 20px;
-
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .order-form-container {
@@ -175,8 +171,8 @@ form {
     margin: auto;
     background-color: #4B3F35;  /* COLOR */
     padding: 20px;
-    border-radius: 10px;
-    border: 3px solid black;
+    border-radius: 5px;
+    /* border: 3px solid black; */
 }
 
 .form-group {
@@ -226,7 +222,7 @@ textarea {
     font-family: "Jersey 15", sans-serif;
     border-radius: 0.5rem;
     border: 3px solid #ebd9c5;
-    width: 30%;
+    width: 40%;
     padding: 1rem;
     margin-top: 6px;
 }
@@ -240,10 +236,13 @@ select {
 .btn-container {
     margin-top: 20px;
     display: flex;
+    justify-content: center;
+    gap: 30px;
+    border-top: 3px solid #ebd9c5;
+    padding-top: 20px;
 }
 
 .btn-color-1, .btn-color-2 {
-    margin: auto;
     padding: 1rem;
     width: 35%;
     border: #ebd9c5 0.1rem solid;
@@ -254,7 +253,7 @@ select {
 }
 
 .btn-color-1:hover, .btn-color-2:hover {
-  cursor: pointer;
+    cursor: pointer;
 }
 
 .btn-color-1 {
@@ -277,18 +276,14 @@ select {
     border: #ebd9c5 0.1rem solid;
 }
 
-.btn-container {
-    gap: 1rem;
-}
-
 /* FOOTER SECTION */
 
 footer {
     text-align: center;
     padding: 20px;
     background-color: #4E3629;  /* COLOR */
-    color: #EDE6DB;  /* TEXT COLOR */
-    border-top: 3px solid black;
+    color: #FFF6E5;  /* TEXT COLOR */
+    /* border-top: 3px solid black; */
 }
 
 footer p{
