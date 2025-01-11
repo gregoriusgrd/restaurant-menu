@@ -203,12 +203,26 @@ form {
     border: 3px solid #ebd9c5;
 }
 
-label {
-   color: #EDE6DB;  /* TEXT COLOR */
-   margin-left: 8px;
+.add-ons-item {
+    display: flex;
+    margin-bottom: 1px;
+    width: 40%;
 }
 
-/* INPUT SECTION */
+.add-ons-price {
+    color: #EDE6DB;
+    margin-left: 30px;
+    text-align: right;
+}
+
+label {
+   color: #EDE6DB; /* TEXT COLOR */
+   margin-left: 8px;
+   flex-grow: 1;
+}
+
+
+/* INPUT */
 
 input {
     font-family: "Jersey 15", sans-serif;
