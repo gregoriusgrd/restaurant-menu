@@ -33,7 +33,7 @@ d. A main section for the menu and order form, featuring:
 e. A footer that includes a ```<p>``` paragraph element that reads "Made with love by " followed by your Codédex username.
 
 ## Notes 📌
-- The website includes a style.css file for styling.
+The website includes a style.css file for styling.
 
 ## Demo 🎬
 You can view the demo of this project [here](https://gregoriusgrd.github.io/restaurant-menu/).
