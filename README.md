@@ -33,7 +33,6 @@ d. A main section for the menu and order form, featuring:
 e. A footer that includes a ```<p>``` paragraph element that reads "Made with love by " followed by your Codédex username.
 
 ## Notes 📌
-- The project requirements for the The Origins I: HTML final task have been fully met.
 - The website includes a style.css file for styling.
 
 Check out the implementation details in both index.html and style.css!
