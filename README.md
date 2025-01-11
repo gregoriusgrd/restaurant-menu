@@ -35,4 +35,7 @@ e. A footer that includes a ```<p>``` paragraph element that reads "Made with lo
 ## Notes 📌
 - The website includes a style.css file for styling.
 
+## Demo 🎬
+You can view the demo of this project [here](https://gregoriusgrd.github.io/restaurant-menu/).
+
 Check out the implementation details in both index.html and style.css!
