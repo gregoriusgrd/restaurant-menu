@@ -1,6 +1,9 @@
 # Restaurant Menu Final Project 🍽️
 This is my final project for The Origins I: HTML on Codédex.
 
+![restaurant menu](https://github.com/user-attachments/assets/a3d54ed7-cd61-465e-a837-7ef7e057e92a)
+
+
 ## Requirements 📋:
 
 a. The HTML file should be properly structured (Hint: start with ```<!DOCTYPE html>```).
